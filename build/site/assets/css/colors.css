@@ -1,0 +1,62 @@
+:root {
+    --links: #330063;
+    --links-hover: #ff5900;
+    --bg : #fcf8ff;
+    --txt: black;
+    --menu: white;
+}
+body{
+    color: var(--txt);
+	background-color: var(--bg);
+}
+
+a {
+    color: var(--links);
+}
+a:hover {
+    color: var(--links-hover);
+}
+.screenshot {
+  color: var(--menu);
+  background-color: var(--links);
+}
+.developer {
+  color: var(--menu);
+  background-color: var(--links);
+}
+.header {
+	background-image: url('../images/header.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.footer {
+    color: var(--txt);
+	background-color: var(--bg);
+ }
+
+.footer a {
+    color: var(--links);
+}
+.footer p {
+    color: var(--txt);
+}
+.download{
+	color: var(--links);
+	background-color: var(--bg);
+	border-style: solid;
+	border-color: var(--links);
+}
+.download:hover{
+
+	color: var(--bg);
+	background-color: var(--links);
+	border-style: solid;
+}
+.top-menu{
+  color: var(--menu);
+}
+
+.links{
+  color: var(--menu);
+}

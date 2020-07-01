@@ -4,3 +4,5 @@
 1. Multiple subdir support
 # Build
 `make` or `bash build.sh`
+# Example output
+https://sulincix.github.io/simplesite/build/site/index.html
